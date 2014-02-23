@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
 # hw
 PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/huawei/msm7x27a/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/huawei/msm7x27a/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 # lib
