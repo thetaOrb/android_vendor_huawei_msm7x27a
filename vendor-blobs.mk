@@ -1,5 +1,4 @@
-#
-# Copyright 2013 The Android Open Source Project
+# Copyright 2014 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -203,7 +202,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/huawei/msm7x27a/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
     vendor/huawei/msm7x27a/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
-    vendor/huawei/msm7x27a/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/huawei/msm7x27a/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/huawei/msm7x27a/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
-    vendor/huawei/msm7x27a/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so
+    vendor/huawei/msm7x27a/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
+    vendor/huawei/msm7x27a/proprietary/lib/libwvm.so:system/lib/libwvm.so
+
+# vendor
+PRODUCT_COPY_FILES += \
+    vendor/huawei/msm7x27a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/huawei/msm7x27a/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
