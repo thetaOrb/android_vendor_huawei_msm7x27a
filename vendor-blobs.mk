@@ -205,9 +205,23 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/huawei/msm7x27a/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
     vendor/huawei/msm7x27a/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-    vendor/huawei/msm7x27a/proprietary/lib/libwvm.so:system/lib/libwvm.so
+    vendor/huawei/msm7x27a/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/huawei/msm7x27a/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so
+
+# drm
+PRODUCT_COPY_FILES += \
+    vendor/huawei/msm7x27a/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
+    vendor/huawei/msm7x27a/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so
 
 # vendor
 PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/huawei/msm7x27a/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
+
+# framework
+PRODUCT_COPY_FILES += \
+    vendor/huawei/msm7x27a/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
+
+# permissions
+PRODUCT_COPY_FILES += \
+    vendor/huawei/msm7x27a/proprietary/etc/permissons/com.google.widevine.software.drm.xml:system/etc/permissons/com.google.widevine.software.drm.xml
